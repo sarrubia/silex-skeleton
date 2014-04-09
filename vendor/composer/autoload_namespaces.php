@@ -36,7 +36,7 @@ return array(
     'Silex' => array($vendorDir . '/silex/silex/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
-    'HalfTarget' => array($vendorDir . '/halftarget/src'),
+    'HalfTarget' => array($vendorDir . '/halftarget/silex/src'),
     'Doctrine\\DBAL' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),

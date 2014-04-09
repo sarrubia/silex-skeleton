@@ -61,7 +61,7 @@ $app['translator'] = $app->share($app->extend('translator', function($translator
 }));
 
 /**
- * ERROR
+ * ERRORs
  */
 $app->error(function (\Exception $e, $code) {
     switch ($code) {

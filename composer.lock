@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bec2994d1c17f7f0638b5f0429a32dd6",
+    "hash": "3b6095993043d468e46ab5ecfe9f282f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -473,6 +473,48 @@
                 "parser"
             ],
             "time": "2013-01-12 18:59:04"
+        },
+        {
+            "name": "halftarget/silex",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sarrubia/silex.git",
+                "reference": "2dd0c400c89277e703a5e41e98c0fe0df6e9f960"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sarrubia/silex/zipball/2dd0c400c89277e703a5e41e98c0fe0df6e9f960",
+                "reference": "2dd0c400c89277e703a5e41e98c0fe0df6e9f960",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "HalfTarget": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Arrubia",
+                    "email": "sarrubia@gmail.com",
+                    "homepage": "http://halftarget.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Libraries for Silex",
+            "homepage": "http://github.com/sarrubia/silex",
+            "keywords": [
+                "silex"
+            ],
+            "time": "2014-04-08 15:31:13"
         },
         {
             "name": "monolog/monolog",
@@ -2339,9 +2381,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "halftarget/silex": 20
+    },
     "platform": [
 
     ],

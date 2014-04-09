@@ -19,12 +19,13 @@
         "symfony/twig-bridge": "~2.3",
         "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
         "swiftmailer/swiftmailer": "5.*",
-        "symfony/yaml": "~2.3"
+        "symfony/yaml": "~2.3",
+        "halftarget/silex": "dev-master"
     },
     
     "autoload": {
         "psr-0": {
-            "HalfTarget": "vendor/halftarget/src/",
+            
             "App": "app/src/"
          }
     }
