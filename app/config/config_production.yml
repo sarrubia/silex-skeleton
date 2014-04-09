@@ -1,0 +1,18 @@
+## YAML Config File. 
+## PRODUCTION environment.
+app:
+    codename: myapp
+
+debug:
+    mode: false
+
+log:
+    level: error
+
+database:
+    driver: pdo_mysql
+    host: localhost
+    dbname: tkt
+    user: root
+    password: 
+    charset: utf8
